@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EasyOtpViewTheme">
+        <attr format="reference" name="easyOtpStyle"/>
+    </declare-styleable>
+
+    <declare-styleable name="EasyOtpView">
+        <attr format="integer" name="itemCount"/>
+        <attr format="dimension" name="itemWidth"/>
+        <attr format="dimension" name="itemHeight"/>
+        <attr format="dimension" name="itemRadius"/>
+        <attr format="dimension" name="itemSpacing"/>
+        <attr format="dimension" name="lineWidth"/>
+        <!--<attr format="reference|color" name="lineColor"/>-->
+        <attr format="enum" name="viewType">
+            <enum name="rectangle" value="0"/>
+            <enum name="line" value="1"/>
+            <enum name="custom" value="2"/>
+        </attr>
+
+        <attr name="lineColor" format="color" />
+        <attr name="filledLineColor" format="color" />
+        <attr name="unfilledLineColor" format="color" />
+        <attr name="rectangleColor" format="color" />
+        <attr name="filledRectangleColor" format="color" />
+        <attr name="unfilledRectangleColor" format="color" />
+
+        <attr name="android:cursorVisible"/>
+        <attr format="dimension" name="cursorWidth"/>
+        <attr format="reference|color" name="cursorColor"/>
+        <attr name="android:itemBackground"/>
+        <attr format="boolean" name="hideLineWhenFilled"/>
+        <attr format="boolean" name="state_filled"/>
+        <attr format="boolean" name="rtlTextDirection"/>
+        <attr format="string" name="maskingChar"/>
+
+        <!-- Existing attributes -->
+        <attr name="itemBackground" format="reference" />
+        <attr name="itemBackgroundFilled" format="reference" />
+        <attr name="itemBackgroundUnfilled" format="reference" />
+    </declare-styleable>
+</resources>
